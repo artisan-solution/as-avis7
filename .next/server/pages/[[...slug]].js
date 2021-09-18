@@ -2592,7 +2592,7 @@ function parseRelativeUrl(url, base) {
 /***/ "jWCw":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"title\":\"Artisan Solution\",\"path_prefix\":\"/\",\"header\":{\"title\":\"Artisan-Solution\",\"has_nav\":false,\"nav_links\":[{\"label\":\"Avis de Marchés Publics infructueux\",\"url\":\"/avis-inf\",\"style\":\"link\"}],\"logo\":\"images/Logo_Transparent_Petit.png\"},\"footer\":{\"has_nav\":false,\"has_social\":false,\"content\":\"&copy; 2021 Artisan-Solution.\"},\"domain\":\"https://www.artisan-solution.com\"}");
+module.exports = JSON.parse("{\"title\":\"Artisan Solution\",\"path_prefix\":\"/\",\"header\":{\"title\":\"Artisan-Solution\",\"has_nav\":false,\"nav_links\":[{\"label\":\"Avis de Marchés Publics infructueux\",\"url\":\"/avis-inf7\",\"style\":\"link\"}],\"logo\":\"images/Logo_Transparent_Petit.png\"},\"footer\":{\"has_nav\":false,\"has_social\":false,\"content\":\"&copy; 2021 Artisan-Solution.\"},\"domain\":\"https://www.artisan-solution.com\"}");
 
 /***/ }),
 
