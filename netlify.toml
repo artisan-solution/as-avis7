@@ -8,6 +8,11 @@ command = "npm run build"
   status = 200
 
 [[redirects]]
+  from = "/avis-inf/*"
+  to = "https://as-avis6.netlify.app/avis-inf/:splat"
+  status = 200
+
+[[redirects]]
   from = "/acheteur-131/*"
   to = "https://as-acheteurs-131.netlify.app/acheteur/:splat"
   status = 200
