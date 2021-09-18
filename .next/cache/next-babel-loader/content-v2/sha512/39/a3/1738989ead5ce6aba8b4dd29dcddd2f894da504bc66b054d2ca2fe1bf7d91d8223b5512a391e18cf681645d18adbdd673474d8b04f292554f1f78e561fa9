@@ -1,0 +1,1 @@
+{"ast":null,"code":"import _ from 'lodash';\nimport withPrefix from './withPrefix';\nexport default function getPageUrl(post, {\n  withPrefix: addPrefix = false\n} = {}) {\n  const urlPath = _.get(post, '__metadata.urlPath');\n\n  return addPrefix ? withPrefix(urlPath) : urlPath;\n}","map":null,"metadata":{},"sourceType":"module"}
