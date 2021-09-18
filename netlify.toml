@@ -5,7 +5,7 @@ command = "npm run build"
 [[redirects]]
   from = "/stat/*"
   to = "http://stat.artisan-solution.com/superset/dashboard/6/:splat"
-  status = 200
+  status = 301
 
 [[redirects]]
   from = "/avis/*"
