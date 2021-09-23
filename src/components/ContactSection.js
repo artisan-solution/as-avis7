@@ -18,33 +18,33 @@ export default class ContactSection extends React.Component {
                         <input aria-labelledby="honeypot-label" type="hidden" name="form-name" value="contactForm" />
                         <div className="form-group">
                             <label id="name-label" htmlFor="name">Name</label>
-                            <input aria-labelledby="name-label" type="text" name="name" id="name" placeholder="Your name" required />
+                            <input aria-labelledby="name-label" type="text" name="name" id="name" placeholder="Votre nom" required />
                         </div>
                         <div className="form-group">
                             <label id="email-label" htmlFor="email">Email</label>
-                            <input aria-labelledby="email-label" type="email" name="email" id="email" placeholder="Your email" required />
+                            <input aria-labelledby="email-label" type="email" name="email" id="email" placeholder="Votre email" required />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="subject">Subject</label>
+                            <label htmlFor="subject">Sujet</label>
                             <div className="form-select-wrap">
                                 <select name="subject" id="subject">
                                     <option value="">Please select</option>
-                                    <option value="Business Inquiries">Business Inquiries</option>
-                                    <option value="Sponsorship">Partnerships</option>
-                                    <option value="Other">Other</option>
+                                    <option value="Demande de renseignement">Demande de renseignement</option>
+                                    <option value="Demande de devis">Demande de devis</option>
+                                    <option value="Autre">Autre</option>
                                 </select>
                             </div>
                         </div>
                         <div className="form-group">
                             <label id="message-label" htmlFor="message">Message</label>
-                            <textarea aria-labelledby="message-label" name="message" id="message" rows="5" placeholder="Your message" />
+                            <textarea aria-labelledby="message-label" name="message" id="message" rows="5" placeholder="Votre message" />
                         </div>
                         <div className="form-group form-checkbox">
                             <input aria-labelledby="consent-label" type="checkbox" name="consent" id="consent" />
-                            <label id="consent-label" htmlFor="consent">I understand that this form is storing my submitted information so I can be contacted.</label>
+                            <label id="consent-label" htmlFor="consent">Je comprends que ces informations seront utilisees pour me recontacter.</label>
                         </div>
                         <div className="form-submit">
-                            <button type="submit" className="button">Get In Touch</button>
+                            <button type="submit" className="button">Envoyer</button>
                         </div>
                     </form>
                 </div>

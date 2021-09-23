@@ -3381,7 +3381,7 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
               type: "text",
               name: "name",
               id: "name",
-              placeholder: "Your name",
+              placeholder: "Votre nom",
               required: true
             })]
           }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
@@ -3395,14 +3395,14 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
               type: "email",
               name: "email",
               id: "email",
-              placeholder: "Your email",
+              placeholder: "Votre email",
               required: true
             })]
           }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
             className: "form-group",
             children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("label", {
               htmlFor: "subject",
-              children: "Subject"
+              children: "Sujet"
             }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
               className: "form-select-wrap",
               children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("select", {
@@ -3412,14 +3412,14 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
                   value: "",
                   children: "Please select"
                 }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("option", {
-                  value: "Business Inquiries",
-                  children: "Business Inquiries"
+                  value: "Demande de renseignement",
+                  children: "Demande de renseignement"
                 }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("option", {
-                  value: "Sponsorship",
-                  children: "Partnerships"
+                  value: "Demande de devis",
+                  children: "Demande de devis"
                 }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("option", {
-                  value: "Other",
-                  children: "Other"
+                  value: "Autre",
+                  children: "Autre"
                 })]
               })
             })]
@@ -3434,7 +3434,7 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
               name: "message",
               id: "message",
               rows: "5",
-              placeholder: "Your message"
+              placeholder: "Votre message"
             })]
           }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
             className: "form-group form-checkbox",
@@ -3446,14 +3446,14 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
             }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("label", {
               id: "consent-label",
               htmlFor: "consent",
-              children: "I understand that this form is storing my submitted information so I can be contacted."
+              children: "Je comprends que ces informations seront utilisees pour me recontacter."
             })]
           }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
             className: "form-submit",
             children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
               type: "submit",
               className: "button",
-              children: "Get In Touch"
+              children: "Envoyer"
             })
           })]
         })]
