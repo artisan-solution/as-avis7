@@ -14,9 +14,28 @@
 	"logo": "images/Logo_Transparent_Petit.png"
     },
     "footer": {
-        "has_nav": false,
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Conditions generales d'utilisation",
+                "url": "/cgu",
+                "style": "link"
+            },
+            {
+                "label": "Mentions legales",
+                "url": "/terms",
+                "style": "link"
+            }
+        ],
         "has_social": false,
-        "content": "&copy; 2021 Artisan-Solution."
-    },
-    "domain": "https://www.artisan-solution.com"
+        "social_links": [
+            {
+                "label": "GitHub",
+                "url": "https://github.com/",
+                "style": "link",
+                "new_window": true
+            }
+        ],
+        "content": "&copy; 2021 Artisan-Solution. Tous droits reserves."
+    }
 }
