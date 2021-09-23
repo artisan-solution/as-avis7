@@ -17,7 +17,7 @@ export default class ContactSection extends React.Component {
                         </div>
                         <input aria-labelledby="honeypot-label" type="hidden" name="form-name" value="contactForm" />
                         <div className="form-group">
-                            <label id="name-label" htmlFor="name">Name</label>
+                            <label id="name-label" htmlFor="name">Nom</label>
                             <input aria-labelledby="name-label" type="text" name="name" id="name" placeholder="Votre nom" required />
                         </div>
                         <div className="form-group">
@@ -28,7 +28,7 @@ export default class ContactSection extends React.Component {
                             <label htmlFor="subject">Sujet</label>
                             <div className="form-select-wrap">
                                 <select name="subject" id="subject">
-                                    <option value="">Please select</option>
+                                    <option value="">Selectionner</option>
                                     <option value="Demande de renseignement">Demande de renseignement</option>
                                     <option value="Demande de devis">Demande de devis</option>
                                     <option value="Autre">Autre</option>
@@ -44,7 +44,7 @@ export default class ContactSection extends React.Component {
                             <label id="consent-label" htmlFor="consent">Je comprends que ces informations seront utilisees pour me recontacter.</label>
                         </div>
                         <div className="form-submit">
-                            <button type="submit" className="button">Envoyer</button>
+                            <button type="submit" className="button">Envoi</button>
                         </div>
                     </form>
                 </div>

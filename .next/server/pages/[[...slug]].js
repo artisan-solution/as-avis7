@@ -2592,7 +2592,7 @@ function parseRelativeUrl(url, base) {
 /***/ "jWCw":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"title\":\"Artisan Solution\",\"path_prefix\":\"/\",\"header\":{\"title\":\"Artisan-Solution\",\"has_nav\":false,\"nav_links\":[{\"label\":\"Avis de Marchés Publics infructueux\",\"url\":\"/avis-inf7\",\"style\":\"link\"}],\"logo\":\"images/Logo_Transparent_Petit.png\"},\"footer\":{\"has_nav\":true,\"nav_links\":[{\"label\":\"Conditions generales d'utilisation\",\"url\":\"/cgu\",\"style\":\"link\"},{\"label\":\"Mentions legales\",\"url\":\"/terms\",\"style\":\"link\"}],\"has_social\":false,\"social_links\":[{\"label\":\"GitHub\",\"url\":\"https://github.com/\",\"style\":\"link\",\"new_window\":true}],\"content\":\"&copy; 2021 Artisan-Solution. Tous droits reserves.\"}}");
+module.exports = JSON.parse("{\"title\":\"Artisan Solution\",\"path_prefix\":\"/\",\"header\":{\"title\":\"Artisan-Solution\",\"has_nav\":true,\"nav_links\":[{\"label\":\"Contact\",\"url\":\"/contact\",\"style\":\"primary\"}],\"logo\":\"images/Logo_Transparent_Petit.png\"},\"footer\":{\"has_nav\":true,\"nav_links\":[{\"label\":\"Conditions generales d'utilisation\",\"url\":\"/cgu\",\"style\":\"link\"},{\"label\":\"Mentions legales\",\"url\":\"/terms\",\"style\":\"link\"}],\"has_social\":false,\"social_links\":[{\"label\":\"GitHub\",\"url\":\"https://github.com/\",\"style\":\"link\",\"new_window\":true}],\"content\":\"&copy; 2021 Artisan-Solution. Tous droits reserves.\"}}");
 
 /***/ }),
 
@@ -3375,7 +3375,7 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
             children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("label", {
               id: "name-label",
               htmlFor: "name",
-              children: "Name"
+              children: "Nom"
             }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("input", {
               "aria-labelledby": "name-label",
               type: "text",
@@ -3410,7 +3410,7 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
                 id: "subject",
                 children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("option", {
                   value: "",
-                  children: "Please select"
+                  children: "Selectionner"
                 }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("option", {
                   value: "Demande de renseignement",
                   children: "Demande de renseignement"
@@ -3453,7 +3453,7 @@ class ContactSection_ContactSection extends external_react_default.a.Component {
             children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
               type: "submit",
               className: "button",
-              children: "Envoyer"
+              children: "Envoi"
             })
           })]
         })]

@@ -3,12 +3,12 @@
     "path_prefix": "/",
     "header": {
         "title": "Artisan-Solution",
-        "has_nav": false,
+        "has_nav": true,
         "nav_links": [
             {
-                "label": "Avis de Marchés Publics infructueux",
-                "url": "/avis-inf7",
-                "style": "link"
+                "label": "Contact",
+                "url": "/contact",
+                "style": "primary"
             }
         ],
 	"logo": "images/Logo_Transparent_Petit.png"
