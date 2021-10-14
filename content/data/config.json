@@ -17,15 +17,21 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Conditions generales d'utilisation",
+                "label": "Conditions générales d'utilisation",
                 "url": "/cgu",
                 "style": "link"
             },
             {
-                "label": "Mentions legales",
+                "label": "Mentions légales",
                 "url": "/terms",
                 "style": "link"
+            },
+            {
+                "label": "Assistance à réponse à Marché Public",
+                "url": "/service",
+                "style": "link"
             }
+
         ],
         "has_social": false,
         "social_links": [

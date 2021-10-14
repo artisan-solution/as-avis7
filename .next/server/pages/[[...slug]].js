@@ -2592,7 +2592,7 @@ function parseRelativeUrl(url, base) {
 /***/ "jWCw":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"title\":\"Artisan Solution\",\"path_prefix\":\"/\",\"header\":{\"title\":\"Artisan-Solution\",\"has_nav\":true,\"nav_links\":[{\"label\":\"Contact\",\"url\":\"/contact\",\"style\":\"primary\"}],\"logo\":\"images/Logo_Transparent_Petit.png\"},\"footer\":{\"has_nav\":true,\"nav_links\":[{\"label\":\"Conditions generales d'utilisation\",\"url\":\"/cgu\",\"style\":\"link\"},{\"label\":\"Mentions legales\",\"url\":\"/terms\",\"style\":\"link\"}],\"has_social\":false,\"social_links\":[{\"label\":\"GitHub\",\"url\":\"https://github.com/\",\"style\":\"link\",\"new_window\":true}],\"content\":\"&copy; 2021 Artisan-Solution. Tous droits reserves.\"},\"domain\":\"https://www.artisan-solution.com\",\"favicon\":\"/images/favicon.ico\"}");
+module.exports = JSON.parse("{\"title\":\"Artisan Solution\",\"path_prefix\":\"/\",\"header\":{\"title\":\"Artisan-Solution\",\"has_nav\":true,\"nav_links\":[{\"label\":\"Contact\",\"url\":\"/contact\",\"style\":\"primary\"}],\"logo\":\"images/Logo_Transparent_Petit.png\"},\"footer\":{\"has_nav\":true,\"nav_links\":[{\"label\":\"Conditions générales d'utilisation\",\"url\":\"/cgu\",\"style\":\"link\"},{\"label\":\"Mentions légales\",\"url\":\"/terms\",\"style\":\"link\"},{\"label\":\"Assistance à réponse à Marché Public\",\"url\":\"/service\",\"style\":\"link\"}],\"has_social\":false,\"social_links\":[{\"label\":\"GitHub\",\"url\":\"https://github.com/\",\"style\":\"link\",\"new_window\":true}],\"content\":\"&copy; 2021 Artisan-Solution. Tous droits reserves.\"},\"domain\":\"https://www.artisan-solution.com\",\"favicon\":\"/images/favicon.ico\"}");
 
 /***/ }),
 
