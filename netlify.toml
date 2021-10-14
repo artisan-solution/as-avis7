@@ -3,6 +3,11 @@ publish = "out"
 command = "npm run build"
 
 [[redirects]]
+  from = "/service/"
+  to = "https://service.artisan-solution.com/:splat"
+  status = 301
+
+[[redirects]]
   from = "/avis/*"
   to = "https://as-avis4.netlify.app/avis/:splat"
   status = 200
