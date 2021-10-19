@@ -1,8 +1,13 @@
 ---
 title: Contact
 sections:
+  - title: ''
+    content: |-
+      ###### Appelez-nous : lundi-vendredi / 8h-19h au [09 72 21 23 15](tel://0972212315)
+      ###### Ou laissez-nous un message et nous vous rappelerons
+    type: content_section
   - type: hero_section
-    title: Contact
+    title: ''
     align: center
   - type: contact_section
 seo:

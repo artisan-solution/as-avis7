@@ -1,9 +1,9 @@
 ---
-title: Veille et analyse des Marchés Publics
+title: Veille et assistance pour l'accès aux Marchés Publics
 sections:
   - type: hero_section
-    title: 'Analysez les Marchés Publics'
-    subtitle: 'Artisan-Solution fournit les clefs pour connaitre les marchés publics, les acheteurs et les entreprises attributaires'
+    title: "Assistance pour l'accès aux Marchés Publics"
+    subtitle: "Répondez aux appels d'offres de marchés publics"
     actions: []
     align: left
     image: images/transfo-digitale.svg
@@ -36,7 +36,6 @@ sections:
 
           Dans tous les cas, l’entreprise susceptible de répondre au besoin
           a **tout intérêt à contacter l’acheteur** pour une démarche commerciale.
-
 
 
 

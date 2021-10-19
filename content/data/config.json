@@ -6,6 +6,16 @@
         "has_nav": true,
         "nav_links": [
             {
+                "label": "☎ : 09 72 21 23 15",
+                "url": "tel://0972212315",
+                "style": "link"
+            },
+            {
+                "label": "Services",
+                "url": "/services",
+                "style": "secondary"
+            },
+            {
                 "label": "Contact",
                 "url": "/contact",
                 "style": "primary"
@@ -25,13 +35,7 @@
                 "label": "Mentions légales",
                 "url": "/terms",
                 "style": "link"
-            },
-            {
-                "label": "Assistance à réponse à Marché Public",
-                "url": "/service",
-                "style": "link"
             }
-
         ],
         "has_social": false,
         "social_links": [
