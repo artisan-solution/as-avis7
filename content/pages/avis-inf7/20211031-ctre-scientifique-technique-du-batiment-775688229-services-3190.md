@@ -1,5 +1,5 @@
 ---
-title: Lot non attribué - Services aux entreprises: droit, marketing, conseil, recrutement, impression et sécurité + autres services
+title: Lot non attribué - Services aux entreprises, droit, marketing, conseil, recrutement, impression et sécurité + autres services
 date: 2021-10-31
 image: images/services.png
 excerpt: >-
