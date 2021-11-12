@@ -56,17 +56,17 @@ sections:
         image_position: left
         actions:
           - label: Travaux
-            url: 'https://marches-publics-travaux.artisan-solution.com/'
+            url: 'https://marches-publics-travaux.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
           - label: Services
-            url: 'https://marches-publics-services.artisan-solution.com/'
+            url: 'https://marches-publics-services.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
           - label: Fournitures
-            url: 'https://marches-publics-fournitures.artisan-solution.com/'
+            url: 'https://marches-publics-fournitures.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
@@ -81,17 +81,17 @@ sections:
         image_position: left
         actions:
           - label: Travaux
-            url: 'https://avis-infructueux-travaux.artisan-solution.com/'
+            url: 'https://avis-infructueux-travaux.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
           - label: Services
-            url: 'https://avis-infructueux-services.artisan-solution.com/'
+            url: 'https://avis-infructueux-services.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
           - label: Fournitures
-            url: 'https://avis-infructueux-fournitures.artisan-solution.com/'
+            url: 'https://avis-infructueux-fournitures.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action

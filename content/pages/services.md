@@ -24,17 +24,17 @@ sections:
         image_position: left
         actions:
           - label: Travaux
-            url: 'https://marches-publics-travaux.artisan-solution.com/'
+            url: 'https://marches-publics-travaux.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
           - label: Services
-            url: 'https://marches-publics-services.artisan-solution.com/'
+            url: 'https://marches-publics-services.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
           - label: Fournitures
-            url: 'https://marches-publics-fournitures.artisan-solution.com/'
+            url: 'https://marches-publics-fournitures.artisansolution.fr/'
             style: secondary
             new_window: false
             type: action
