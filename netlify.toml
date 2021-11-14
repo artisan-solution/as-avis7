@@ -4,13 +4,15 @@ command = "npm run build"
 
 [[redirects]]
   from = "https://www.artisan-solution.com/"
-  to = "https://www.artisansolution.fr/"
+  to = "https://www.artisansolution.fr/:splat"
   status = 301
+  force = true
 
 [[redirects]]
   from = "https://artisan-solution.com/"
-  to = "https://www.artisansolution.fr/"
+  to = "https://www.artisansolution.fr/:splat"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/service/"
