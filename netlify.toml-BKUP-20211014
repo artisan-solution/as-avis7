@@ -3,18 +3,8 @@ publish = "out"
 command = "npm run build"
 
 [[redirects]]
-  from = "https://www.artisan-solution.com/"
-  to = "https://www.artisansolution.fr/"
-  status = 301
-
-[[redirects]]
-  from = "https://artisan-solution.com/"
-  to = "https://www.artisansolution.fr/"
-  status = 301
-
-[[redirects]]
   from = "/service/"
-  to = "https://service.artisansolution.fr/"
+  to = "https://service.artisan-solution.com/"
   status = 301
 
 [[redirects]]
