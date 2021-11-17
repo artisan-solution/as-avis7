@@ -20,7 +20,7 @@ sections:
         align: left
         image_position: left
         actions:
-          - label: Travaux
+          - label: TRAVAUX
             url: 'https://marches-publics-travaux.artisansolution.fr/'
             style: primary
             new_window: false
@@ -31,7 +31,7 @@ sections:
         align: left
         image_position: left
         actions:
-          - label: Services
+          - label: SERVICES
             url: 'https://marches-publics-services.artisansolution.fr/'
             style: primary
             new_window: false
@@ -42,12 +42,13 @@ sections:
         align: left
         image_position: left
         actions:
-          - label: Fournitures
+          - label: FOURNITURES
             url: 'https://marches-publics-fournitures.artisansolution.fr/'
             style: primary
             new_window: false
             type: action
         type: feature
+---
       - title: Bilan 2021
         content: |-
           ###### Une année 2021 encore marquée par la crise sanitaire
@@ -61,11 +62,13 @@ sections:
             style: secondary
             new_window: false
             type: action
+---
           - label: Services
             url: bilan2021-marches-publics-services-top100/
             style: secondary
             new_window: false
             type: action
+---
           - label: Fournitures
             url: bilan2021-marches-publics-fournitures-top100/
             style: secondary
@@ -73,6 +76,7 @@ sections:
             type: action
         type: feature
         image: images/fournitures-mots.jpg
+---
       - title: Marchés Publics Infructueux
         content: >-
           Savoir qu'un avis de marché public est resté infructueux est intéressant pour accéder plus facilement à ce marché.
@@ -85,6 +89,7 @@ sections:
             new_window: false
             type: action
         type: feature
+---
       - title: Assistance réponse
         content: >-
           Demander un accompagnement pour préparer une réponse à un marche public.
