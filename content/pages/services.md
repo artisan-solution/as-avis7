@@ -16,23 +16,23 @@ sections:
     image: images/services.svg
   - title: Avis de Marchés Publics ouverts
     features:
-      - title: Travaux
+      - title: 
         content: >-
         align: left
         image_position: left
         actions:
-          - label: Avis
+          - label: Travaux
             url: 'https://marches-publics-travaux.artisansolution.fr/'
             style: primary
             new_window: false
             type: action
         type: feature
-      - title: Services
+      - title: 
         content: >-
         align: left
         image_position: left
         actions:
-          - label: Avis
+          - label: Services
             url: 'https://marches-publics-services.artisansolution.fr/'
             style: primary
             new_window: false
@@ -43,7 +43,7 @@ sections:
         align: left
         image_position: left
         actions:
-          - label: Avis
+          - label: Fournitures
             url: 'https://marches-publics-fournitures.artisansolution.fr/'
             style: primary
             new_window: false
