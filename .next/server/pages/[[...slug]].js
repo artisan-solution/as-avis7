@@ -3863,8 +3863,7 @@ class Header_Header extends external_react_default.a.Component {
           "aria-label": "Main Navigation",
           children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(Link, {
             className: "sr-only",
-            href: "#content",
-            children: "Skip to main content"
+            href: "#content"
           }), logo ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(Link, {
             className: "navbar__logo",
             href: withPrefix('/'),
