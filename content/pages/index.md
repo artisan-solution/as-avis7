@@ -1,18 +1,6 @@
 ---
 title: Veille et assistance pour l'accès aux Marchés Publics
 sections:
-  - type: hero_section
-    title: "Assistance pour l'accès aux Marchés Publics"
-    subtitle: "Répondez aux appels d'offres de marchés publics"
-    actions: []
-    align: left
-    has_background: false
-    background:
-      background_color: blue
-      background_image: images/site-tous-supports.svg
-      background_image_opacity: 15
-      background_image_size: cover
-      background_image_repeat: repeat
   - type: features_section
     title: ''
     features:
