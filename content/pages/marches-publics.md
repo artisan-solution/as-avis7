@@ -54,6 +54,14 @@ sections:
         type: feature
 
 
+      - title: 
+        content: >-
+        align: left
+        image_position: left
+        actions:
+        type: feature
+
+
       - title: Bilan 2021
         content: |-
           ###### Une année 2021 encore marquée par la crise sanitaire
@@ -63,8 +71,6 @@ sections:
         image_position: left
         actions:
         type: feature
-
-
         image: images/fournitures-mots.jpg
 
 
@@ -96,6 +102,12 @@ sections:
         type: feature
 
 
+      - title: 
+        content: >-
+        align: left
+        image_position: left
+        actions:
+        type: feature
     type: features_section
 layout: advanced
 ---
