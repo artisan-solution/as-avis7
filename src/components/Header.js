@@ -89,7 +89,7 @@ export default class Header extends React.Component {
             <header className="site-header">
                 <div className="container container--lg">
                     <nav className="navbar" aria-label="Main Navigation">
-                        <Link className="sr-only" href="#content">Skip to main content</Link>
+                        <Link className="sr-only" href="#content"></Link>
                         {logo ? <Link className="navbar__logo" href={withPrefix('/')}><img src={withPrefix(logo)} alt={logoAlt} /></Link>
                             : <Link className="h4 navbar__title" href={withPrefix('/')}>{title}</Link>
                         }
