@@ -58,33 +58,12 @@ sections:
         content: |-
           ###### Une année 2021 encore marquée par la crise sanitaire
 
-          Consulter les statistiques :
+          Les statistiques seront disponibles ici prochainememt:
         align: left
         image_position: left
         actions:
-          - label: TRAVAUX
-            url: bilan2021-marches-publics-travaux-top50/
-            style: secondary
-            new_window: false
-            type: action
-
-
-          - label: SERVICES
-            url: bilan2021-marches-publics-services-top100/
-            style: secondary
-            new_window: false
-            type: action
-
-
-          - label: FOURNITURES
-            url: bilan2021-marches-publics-fournitures-top100/
-            style: secondary
-            new_window: false
-            type: action
         type: feature
         image: images/fournitures-mots.jpg
-
-
 
 
       - title: Marchés Publics Infructueux
@@ -94,13 +73,11 @@ sections:
         image_position: left
         actions:
           - label: AVIS INFRUCTUEUX
-            url: 'https://as-avis7.netlify.app/'
+            url: '/avis-infructueux'
             style: primary
             new_window: false
             type: action
         type: feature
-
-
 
 
       - title: Assistance réponse
