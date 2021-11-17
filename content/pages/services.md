@@ -13,7 +13,6 @@ sections:
       background_image_size: cover
       background_image_repeat: no-repeat
     type: hero_section
-    image: images/services.svg
   - title: Avis de Marchés Publics ouverts
     features:
       - title: 
@@ -38,7 +37,7 @@ sections:
             new_window: false
             type: action
         type: feature
-      - title: Fournitures
+      - title: 
         content: >-
         align: left
         image_position: left
