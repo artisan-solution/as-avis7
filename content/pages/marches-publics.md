@@ -63,6 +63,8 @@ sections:
         image_position: left
         actions:
         type: feature
+
+
         image: images/fournitures-mots.jpg
 
 
@@ -92,6 +94,8 @@ sections:
             new_window: false
             type: action
         type: feature
+
+
     type: features_section
 layout: advanced
 ---
