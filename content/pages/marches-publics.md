@@ -13,7 +13,7 @@ sections:
       background_image_size: cover
       background_image_repeat: no-repeat
     type: hero_section
-  - title: Avis de Marchés Publics ouverts
+  - title: Avis de Marchés Publics Ouverts
     features:
       - title: 
         content: >-
@@ -29,10 +29,6 @@ sections:
 
       - title:
         content: >-
-
-
-          #
-          #
         align: left
         image_position: left
         actions:
@@ -54,10 +50,6 @@ sections:
 
       - title:
         content: >-
-
-
-          #
-          #
         align: left
         image_position: left
         actions:
@@ -79,17 +71,13 @@ sections:
 
       - title: 
         content: >-
-
-
-          #
-          #
         align: left
         image_position: left
         actions:
         type: feature
 
 
-      - title: #Bilan 2021
+      - title: Bilan 2021
         content: |-
           #### Une année 2021 encore marquée par la crise sanitaire
 
@@ -103,18 +91,13 @@ sections:
 
       - title:
         content: >-
-
-
-          #
-          #
         align: left
         image_position: left
         actions:
         type: feature
 
 
-
-      - title: #Marchés Publics Infructueux
+      - title: Marchés Publics Infructueux
         content: >-
           Savoir qu'un avis de marché public est resté infructueux est intéressant pour accéder plus facilement à ce marché.
         align: left
@@ -130,10 +113,6 @@ sections:
 
       - title:
         content: >-
-
-
-          #
-          #
         align: left
         image_position: left
         actions:
@@ -156,10 +135,6 @@ sections:
 
       - title: 
         content: >-
-
-
-          #
-          #
         align: left
         image_position: left
         actions:
