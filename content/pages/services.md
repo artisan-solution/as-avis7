@@ -23,17 +23,17 @@ sections:
         align: left
         image_position: left
         actions:
-          - label: Travaux
+          - label: Travaux 
             url: 'https://marches-publics-travaux.artisansolution.fr/'
             style: primary
             new_window: false
             type: action
-          - label: Services
+          - label:  Services 
             url: 'https://marches-publics-services.artisansolution.fr/'
             style: link
             new_window: false
             type: action
-          - label: Fournitures
+          - label:  Fournitures
             url: 'https://marches-publics-fournitures.artisansolution.fr/'
             style: secondary
             new_window: false
