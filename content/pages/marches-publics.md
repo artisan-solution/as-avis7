@@ -56,6 +56,9 @@ sections:
 
       - title: 
         content: >-
+
+
+          #
         align: left
         image_position: left
         actions:
@@ -104,6 +107,9 @@ sections:
 
       - title: 
         content: >-
+
+
+          #
         align: left
         image_position: left
         actions:
