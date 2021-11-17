@@ -26,6 +26,8 @@ sections:
             new_window: false
             type: action
         type: feature
+
+
       - title: 
         content: >-
         align: left
@@ -37,6 +39,8 @@ sections:
             new_window: false
             type: action
         type: feature
+
+
       - title: 
         content: >-
         align: left
@@ -58,17 +62,21 @@ sections:
         align: left
         image_position: left
         actions:
-          - label: Travaux
+          - label: TRAVAUX
             url: bilan2021-marches-publics-travaux-top50/
             style: secondary
             new_window: false
             type: action
-          - label: Services
+
+
+          - label: SERVICES
             url: bilan2021-marches-publics-services-top100/
             style: secondary
             new_window: false
             type: action
-          - label: Fournitures
+
+
+          - label: FOURNITURES
             url: bilan2021-marches-publics-fournitures-top100/
             style: secondary
             new_window: false
@@ -77,18 +85,22 @@ sections:
         image: images/fournitures-mots.jpg
 
 
+
+
       - title: Marchés Publics Infructueux
         content: >-
           Savoir qu'un avis de marché public est resté infructueux est intéressant pour accéder plus facilement à ce marché.
         align: left
         image_position: left
         actions:
-          - label: Avis Infructueux
-            url: '/'
+          - label: AVIS INFRUCTUEUX
+            url: 'https://as-avis7.netlify.app/'
             style: primary
             new_window: false
             type: action
         type: feature
+
+
 
 
       - title: Assistance réponse
@@ -97,7 +109,7 @@ sections:
         align: left
         image_position: left
         actions:
-          - label: Demande d'assistance
+          - label: DEMANDE D'ASSISTANCE
             url: '/assistance'
             style: primary
             new_window: false
