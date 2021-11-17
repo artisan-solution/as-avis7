@@ -3,7 +3,7 @@
     "path_prefix": "/",
     "header": {
         "title": "Artisan-Solution",
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [
             {
                 "label": "☎ : 09 72 21 69 88",
@@ -24,7 +24,7 @@
 	"logo": "images/Logo_Transparent_Petit.png"
     },
     "footer": {
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [
             {
                 "label": "Conditions générales d'utilisation",
