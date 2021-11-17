@@ -14,28 +14,38 @@ sections:
       background_image_repeat: no-repeat
     type: hero_section
     image: images/services.svg
-  - title: Avis de Marchés Publics
+  - title: Avis de Marchés Publics ouverts
     features:
-      - title: Avis Ouverts
+      - title: Travaux
         content: >-
-          Pour ces avis de Marchés Publics des réponses peuvent être envoyées
-          actuellement.
         align: left
         image_position: left
         actions:
-          - label: "Travaux "
+          - label: Avis
             url: 'https://marches-publics-travaux.artisansolution.fr/'
             style: primary
             new_window: false
             type: action
-          - label: " Services "
+        type: feature
+      - title: Services
+        content: >-
+        align: left
+        image_position: left
+        actions:
+          - label: Avis
             url: 'https://marches-publics-services.artisansolution.fr/'
-            style: link
+            style: primary
             new_window: false
             type: action
-          - label: " Fournitures"
+        type: feature
+      - title: Fournitures
+        content: >-
+        align: left
+        image_position: left
+        actions:
+          - label: Avis
             url: 'https://marches-publics-fournitures.artisansolution.fr/'
-            style: secondary
+            style: primary
             new_window: false
             type: action
         type: feature
