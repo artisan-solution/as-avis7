@@ -25,12 +25,12 @@ sections:
         actions:
           - label: Travaux
             url: 'https://marches-publics-travaux.artisansolution.fr/'
-            style: secondary
+            style: primary
             new_window: false
             type: action
           - label: Services
             url: 'https://marches-publics-services.artisansolution.fr/'
-            style: secondary
+            style: link
             new_window: false
             type: action
           - label: Fournitures
