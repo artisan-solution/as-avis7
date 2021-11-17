@@ -59,6 +59,7 @@ sections:
 
 
           #
+          #
         align: left
         image_position: left
         actions:
@@ -109,6 +110,7 @@ sections:
         content: >-
 
 
+          #
           #
         align: left
         image_position: left
