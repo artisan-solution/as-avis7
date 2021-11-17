@@ -6,9 +6,7 @@ sections:
     subtitle: "Répondez aux appels d'offres de marchés publics"
     actions: []
     align: left
-    image: images/transfo-digitale.svg
-    image_position: right
-    has_background: true
+    has_background: false
     background:
       background_color: blue
       background_image: images/site-tous-supports.svg
@@ -41,8 +39,6 @@ sections:
 
           Consulter les dernières annonces de __Marchés Publics infructueux :__
         align: left
-        image: images/list-tenders.svg
-        image_position: right
   - type: blog_feed_section
     show_recent: true
     recent_count: 18
