@@ -27,6 +27,17 @@ sections:
             type: action
         type: feature
 
+      - title:
+        content: >-
+
+
+          #
+          #
+        align: left
+        image_position: left
+        actions:
+        type: feature
+
 
       - title: 
         content: >-
@@ -38,6 +49,18 @@ sections:
             style: primary
             new_window: false
             type: action
+        type: feature
+
+
+      - title:
+        content: >-
+
+
+          #
+          #
+        align: left
+        image_position: left
+        actions:
         type: feature
 
 
@@ -66,9 +89,9 @@ sections:
         type: feature
 
 
-      - title: Bilan 2021
+      - title: #Bilan 2021
         content: |-
-          ###### Une année 2021 encore marquée par la crise sanitaire
+          #### Une année 2021 encore marquée par la crise sanitaire
 
           Les statistiques seront disponibles ici prochainememt:
         align: left
@@ -78,7 +101,20 @@ sections:
         image: images/fournitures-mots.jpg
 
 
-      - title: Marchés Publics Infructueux
+      - title:
+        content: >-
+
+
+          #
+          #
+        align: left
+        image_position: left
+        actions:
+        type: feature
+
+
+
+      - title: #Marchés Publics Infructueux
         content: >-
           Savoir qu'un avis de marché public est resté infructueux est intéressant pour accéder plus facilement à ce marché.
         align: left
@@ -89,6 +125,18 @@ sections:
             style: primary
             new_window: false
             type: action
+        type: feature
+
+
+      - title:
+        content: >-
+
+
+          #
+          #
+        align: left
+        image_position: left
+        actions:
         type: feature
 
 
