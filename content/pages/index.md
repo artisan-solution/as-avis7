@@ -29,6 +29,6 @@ sections:
         align: left
   - type: blog_feed_section
     show_recent: true
-    recent_count: 18
+    recent_count: 100
 layout: advanced
 ---
