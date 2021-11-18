@@ -3,6 +3,12 @@ publish = "out"
 command = "npm run build"
 environment = { NODE_VERSION = "12" }
 
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "out"
+
 [[redirects]]
   from = "https://www.artisan-solution.com/*"
   to = "https://www.artisansolution.fr/"
@@ -33,18 +39,8 @@ environment = { NODE_VERSION = "12" }
   status = 301
 
 [[redirects]]
-  from = "/sitemap2.xml"
+  from = "/sitemap2.xml*"
   to = "https://as-avis7.netlify.app/sitemap2.xml:splat"
-  status = 200
-
-[[redirects]]
-  from = "/contact/*"
-  to = "https://as-avis7.netlify.app/contact/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/terms/*"
-  to = "https://as-avis7.netlify.app/terms/:splat"
   status = 200
 
 [[redirects]]
