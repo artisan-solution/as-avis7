@@ -1,7 +1,7 @@
 ---
 title: Veille, études et assistance pour l'accès aux Marchés Publics
 date: 2021-11-17
-image: images/fournitures-mots.jpg
+image: images/services.png
 excerpt: >-
   Accéder facilement au Marché Public
 layout: post
