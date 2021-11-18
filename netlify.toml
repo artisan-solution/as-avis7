@@ -33,6 +33,11 @@ environment = { NODE_VERSION = "12" }
   status = 301
 
 [[redirects]]
+  from = "/sitemap2.xml"
+  to = "https://as-avis7.netlify.app/sitemap2.xml:splat"
+  status = 200
+
+[[redirects]]
   from = "/contact/*"
   to = "https://as-avis7.netlify.app/contact/:splat"
   status = 200
