@@ -6,6 +6,9 @@ environment = { NODE_VERSION = "12" }
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
+  [plugins.inputs]
+  filePath = "sitemap1.xml"
+
 [[redirects]]
   from = "https://www.artisan-solution.com/*"
   to = "https://www.artisansolution.fr/"
