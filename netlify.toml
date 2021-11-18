@@ -1,3 +1,2034 @@
 [build]
 publish = "out"
 command = "npm run build"
+environment = { NODE_VERSION = "12" }
+
+[[redirects]]
+  from = "https://www.artisan-solution.com/*"
+  to = "https://www.artisansolution.fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://artisan-solution.com/*"
+  to = "https://www.artisansolution.fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.artisan-solution.net/*"
+  to = "https://www.artisansolution.fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://artisan-solution.net/*"
+  to = "https://www.artisansolution.fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/assistance/"
+  to = "https://assistance.artisansolution.fr/"
+  status = 301
+
+[[redirects]]
+  from = "/contact/*"
+  to = "https://as-avis7.netlify.app/contact/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/terms/*"
+  to = "https://as-avis7.netlify.app/terms/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/cgu/*"
+  to = "https://as-avis7.netlify.app/cgu/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/site/*"
+  to = "https://as-avis7.netlify.app/site/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/services/*"
+  to = "https://as-avis7.netlify.app/services/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/transition-digitale/*"
+  to = "https://as-avis7.netlify.app/transition-digitale/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/activateur-france-num/*"
+  to = "https://as-avis7.netlify.app/activateur-france-num/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/bilan2020-marches-publics-fournitures-top100/*"
+  to = "https://as-avis7.netlify.app/bilan2020-marches-publics-fournitures-top100/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/bilan2020-marches-publics-services-top100/*"
+  to = "https://as-avis7.netlify.app/bilan2020-marches-publics-services-top100/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/bilan2020-marches-publics-travaux-top50/*"
+  to = "https://as-avis7.netlify.app/bilan2020-marches-publics-travaux-top50/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/marches-publics/*"
+  to = "https://as-avis7.netlify.app/marches-publics/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-infructueux/*"
+  to = "https://as-avis7.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-inf7/*"
+  to = "https://as-avis7.netlify.app/avis-inf7/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis/*"
+  to = "https://as-avis4.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-inf/*"
+  to = "https://as-avis6.netlify.app/avis-inf/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-131/*"
+  to = "https://as-acheteurs-131.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-132/*"
+  to = "https://as-acheteurs-132.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-133/*"
+  to = "https://as-acheteurs-133.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-134/*"
+  to = "https://as-acheteurs-134.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-135/*"
+  to = "https://as-acheteurs-135.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-136/*"
+  to = "https://as-acheteurs-136.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-137/*"
+  to = "https://as-acheteurs-137.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-138/*"
+  to = "https://as-acheteurs-138.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-139/*"
+  to = "https://as-acheteurs-139.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-140/*"
+  to = "https://as-acheteurs-140.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-141/*"
+  to = "https://as-acheteurs-141.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-142/*"
+  to = "https://as-acheteurs-142.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-143/*"
+  to = "https://as-acheteurs-143.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-144/*"
+  to = "https://as-acheteurs-144.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-145/*"
+  to = "https://as-acheteurs-145.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-146/*"
+  to = "https://as-acheteurs-146.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-147/*"
+  to = "https://as-acheteurs-147.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-148/*"
+  to = "https://as-acheteurs-148.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-149/*"
+  to = "https://as-acheteurs-149.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/acheteur-150/*"
+  to = "https://as-acheteurs-150.netlify.app/acheteur/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-543/*"
+  to = "https://as-entreprises-543.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-544/*"
+  to = "https://as-entreprises-544.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-545/*"
+  to = "https://as-entreprises-545.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-546/*"
+  to = "https://as-entreprises-546.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-547/*"
+  to = "https://as-entreprises-547.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-548/*"
+  to = "https://as-entreprises-548.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-549/*"
+  to = "https://as-entreprises-549.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-550/*"
+  to = "https://as-entreprises-550.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-551/*"
+  to = "https://as-entreprises-551.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-552/*"
+  to = "https://as-entreprises-552.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-553/*"
+  to = "https://as-entreprises-553.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-554/*"
+  to = "https://as-entreprises-554.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-555/*"
+  to = "https://as-entreprises-555.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-556/*"
+  to = "https://as-entreprises-556.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-557/*"
+  to = "https://as-entreprises-557.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-558/*"
+  to = "https://as-entreprises-558.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-559/*"
+  to = "https://as-entreprises-559.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-560/*"
+  to = "https://as-entreprises-560.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-561/*"
+  to = "https://as-entreprises-561.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-562/*"
+  to = "https://as-entreprises-562.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-563/*"
+  to = "https://as-entreprises-563.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-564/*"
+  to = "https://as-entreprises-564.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-565/*"
+  to = "https://as-entreprises-565.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-566/*"
+  to = "https://as-entreprises-566.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-567/*"
+  to = "https://as-entreprises-567.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-568/*"
+  to = "https://as-entreprises-568.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-569/*"
+  to = "https://as-entreprises-569.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-570/*"
+  to = "https://as-entreprises-570.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-571/*"
+  to = "https://as-entreprises-571.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-572/*"
+  to = "https://as-entreprises-572.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-573/*"
+  to = "https://as-entreprises-573.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-574/*"
+  to = "https://as-entreprises-574.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-575/*"
+  to = "https://as-entreprises-575.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-576/*"
+  to = "https://as-entreprises-576.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-577/*"
+  to = "https://as-entreprises-577.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-578/*"
+  to = "https://as-entreprises-578.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-579/*"
+  to = "https://as-entreprises-579.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-580/*"
+  to = "https://as-entreprises-580.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-581/*"
+  to = "https://as-entreprises-581.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-582/*"
+  to = "https://as-entreprises-582.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-583/*"
+  to = "https://as-entreprises-583.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-584/*"
+  to = "https://as-entreprises-584.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-585/*"
+  to = "https://as-entreprises-585.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-586/*"
+  to = "https://as-entreprises-586.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-587/*"
+  to = "https://as-entreprises-587.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-588/*"
+  to = "https://as-entreprises-588.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-589/*"
+  to = "https://as-entreprises-589.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-590/*"
+  to = "https://as-entreprises-590.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-591/*"
+  to = "https://as-entreprises-591.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-592/*"
+  to = "https://as-entreprises-592.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-593/*"
+  to = "https://as-entreprises-593.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-594/*"
+  to = "https://as-entreprises-594.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-595/*"
+  to = "https://as-entreprises-595.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-596/*"
+  to = "https://as-entreprises-596.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-597/*"
+  to = "https://as-entreprises-597.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-598/*"
+  to = "https://as-entreprises-598.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-599/*"
+  to = "https://as-entreprises-599.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-600/*"
+  to = "https://as-entreprises-600.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-601/*"
+  to = "https://as-entreprises-601.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-602/*"
+  to = "https://as-entreprises-602.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-603/*"
+  to = "https://as-entreprises-603.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-604/*"
+  to = "https://as-entreprises-604.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-605/*"
+  to = "https://as-entreprises-605.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-606/*"
+  to = "https://as-entreprises-606.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-607/*"
+  to = "https://as-entreprises-607.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-608/*"
+  to = "https://as-entreprises-608.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-609/*"
+  to = "https://as-entreprises-609.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-610/*"
+  to = "https://as-entreprises-610.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-611/*"
+  to = "https://as-entreprises-611.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-612/*"
+  to = "https://as-entreprises-612.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-613/*"
+  to = "https://as-entreprises-613.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-614/*"
+  to = "https://as-entreprises-614.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-615/*"
+  to = "https://as-entreprises-615.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-616/*"
+  to = "https://as-entreprises-616.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-617/*"
+  to = "https://as-entreprises-617.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-618/*"
+  to = "https://as-entreprises-618.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-619/*"
+  to = "https://as-entreprises-619.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-620/*"
+  to = "https://as-entreprises-620.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-621/*"
+  to = "https://as-entreprises-621.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-622/*"
+  to = "https://as-entreprises-622.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-623/*"
+  to = "https://as-entreprises-623.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-624/*"
+  to = "https://as-entreprises-624.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-625/*"
+  to = "https://as-entreprises-625.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-626/*"
+  to = "https://as-entreprises-626.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-627/*"
+  to = "https://as-entreprises-627.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-628/*"
+  to = "https://as-entreprises-628.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-629/*"
+  to = "https://as-entreprises-629.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-630/*"
+  to = "https://as-entreprises-630.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-631/*"
+  to = "https://as-entreprises-631.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-632/*"
+  to = "https://as-entreprises-632.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-633/*"
+  to = "https://as-entreprises-633.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-634/*"
+  to = "https://as-entreprises-634.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-635/*"
+  to = "https://as-entreprises-635.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-636/*"
+  to = "https://as-entreprises-636.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-637/*"
+  to = "https://as-entreprises-637.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-638/*"
+  to = "https://as-entreprises-638.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-639/*"
+  to = "https://as-entreprises-639.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-640/*"
+  to = "https://as-entreprises-640.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-641/*"
+  to = "https://as-entreprises-641.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/entreprise-642/*"
+  to = "https://as-entreprises-642.netlify.app/entreprise/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1801/*"
+  to = "https://as-1801.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1802/*"
+  to = "https://as-1802.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1803/*"
+  to = "https://as-1803.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1804/*"
+  to = "https://as-1804.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1805/*"
+  to = "https://as-1805.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1806/*"
+  to = "https://as-1806.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1807/*"
+  to = "https://as-1807.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1808/*"
+  to = "https://as-1808.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1809/*"
+  to = "https://as-1809.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1810/*"
+  to = "https://as-1810.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1811/*"
+  to = "https://as-1811.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1812/*"
+  to = "https://as-1812.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1813/*"
+  to = "https://as-1813.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1814/*"
+  to = "https://as-1814.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1815/*"
+  to = "https://as-1815.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1816/*"
+  to = "https://as-1816.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1817/*"
+  to = "https://as-1817.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1818/*"
+  to = "https://as-1818.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1819/*"
+  to = "https://as-1819.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1820/*"
+  to = "https://as-1820.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1821/*"
+  to = "https://as-1821.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1822/*"
+  to = "https://as-1822.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1823/*"
+  to = "https://as-1823.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1824/*"
+  to = "https://as-1824.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1825/*"
+  to = "https://as-1825.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1826/*"
+  to = "https://as-1826.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1827/*"
+  to = "https://as-1827.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1828/*"
+  to = "https://as-1828.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1829/*"
+  to = "https://as-1829.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1830/*"
+  to = "https://as-1830.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1831/*"
+  to = "https://as-1831.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1832/*"
+  to = "https://as-1832.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1833/*"
+  to = "https://as-1833.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1834/*"
+  to = "https://as-1834.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1835/*"
+  to = "https://as-1835.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1836/*"
+  to = "https://as-1836.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1837/*"
+  to = "https://as-1837.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1838/*"
+  to = "https://as-1838.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1839/*"
+  to = "https://as-1839.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1840/*"
+  to = "https://as-1840.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1841/*"
+  to = "https://as-1841.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1842/*"
+  to = "https://as-1842.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1843/*"
+  to = "https://as-1843.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1844/*"
+  to = "https://as-1844.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1845/*"
+  to = "https://as-1845.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1846/*"
+  to = "https://as-1846.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1847/*"
+  to = "https://as-1847.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1848/*"
+  to = "https://as-1848.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1849/*"
+  to = "https://as-1849.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1850/*"
+  to = "https://as-1850.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1851/*"
+  to = "https://as-1851.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1852/*"
+  to = "https://as-1852.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1853/*"
+  to = "https://as-1853.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1901/*"
+  to = "https://as-1901.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1902/*"
+  to = "https://as-1902.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1903/*"
+  to = "https://as-1903.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1904/*"
+  to = "https://as-1904.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1905/*"
+  to = "https://as-1905.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1906/*"
+  to = "https://as-1906.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1907/*"
+  to = "https://as-1907.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1908/*"
+  to = "https://as-1908.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1909/*"
+  to = "https://as-1909.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1910/*"
+  to = "https://as-1910.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1911/*"
+  to = "https://as-1911.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1912/*"
+  to = "https://as-1912.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1913/*"
+  to = "https://as-1913.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1914/*"
+  to = "https://as-1914.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1915/*"
+  to = "https://as-1915.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1916/*"
+  to = "https://as-1916.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1917/*"
+  to = "https://as-1917.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1918/*"
+  to = "https://as-1918.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1919/*"
+  to = "https://as-1919.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1920/*"
+  to = "https://as-1920.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1921/*"
+  to = "https://as-1921.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1922/*"
+  to = "https://as-1922.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1923/*"
+  to = "https://as-1923.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1924/*"
+  to = "https://as-1924.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1925/*"
+  to = "https://as-1925.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1926/*"
+  to = "https://as-1926.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1927/*"
+  to = "https://as-1927.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1928/*"
+  to = "https://as-1928.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1929/*"
+  to = "https://as-1929.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1930/*"
+  to = "https://as-1930.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1931/*"
+  to = "https://as-1931.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1932/*"
+  to = "https://as-1932.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1933/*"
+  to = "https://as-1933.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1934/*"
+  to = "https://as-1934.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1935/*"
+  to = "https://as-1935.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1936/*"
+  to = "https://as-1936.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1937/*"
+  to = "https://as-1937.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1938/*"
+  to = "https://as-1938.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1939/*"
+  to = "https://as-1939.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1940/*"
+  to = "https://as-1940.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1941/*"
+  to = "https://as-1941.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1942/*"
+  to = "https://as-1942.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1943/*"
+  to = "https://as-1943.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1944/*"
+  to = "https://as-1944.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1945/*"
+  to = "https://as-1945.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1946/*"
+  to = "https://as-1946.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1947/*"
+  to = "https://as-1947.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1948/*"
+  to = "https://as-1948.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1949/*"
+  to = "https://as-1949.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1950/*"
+  to = "https://as-1950.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1951/*"
+  to = "https://as-1951.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1952/*"
+  to = "https://as-1952.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-1953/*"
+  to = "https://as-1953.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2001/*"
+  to = "https://as-2001.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2002/*"
+  to = "https://as-2002.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2003/*"
+  to = "https://as-2003.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2004/*"
+  to = "https://as-2004.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2005/*"
+  to = "https://as-2005.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2006/*"
+  to = "https://as-2006.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2007/*"
+  to = "https://as-2007.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2008/*"
+  to = "https://as-2008.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2009/*"
+  to = "https://as-2009.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2010/*"
+  to = "https://as-2010.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2011/*"
+  to = "https://as-2011.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2012/*"
+  to = "https://as-2012.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2013/*"
+  to = "https://as-2013.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2014/*"
+  to = "https://as-2014.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2015/*"
+  to = "https://as-2015.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2016/*"
+  to = "https://as-2016.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2017/*"
+  to = "https://as-2017.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2018/*"
+  to = "https://as-2018.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2019/*"
+  to = "https://as-2019.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2020/*"
+  to = "https://as-2020.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2021/*"
+  to = "https://as-2021.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2022/*"
+  to = "https://as-2022.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2023/*"
+  to = "https://as-2023.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2024/*"
+  to = "https://as-2024.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2025/*"
+  to = "https://as-2025.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2026/*"
+  to = "https://as-2026.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2027/*"
+  to = "https://as-2027.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2028/*"
+  to = "https://as-2028.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2029/*"
+  to = "https://as-2029.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2030/*"
+  to = "https://as-2030.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2031/*"
+  to = "https://as-2031.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2032/*"
+  to = "https://as-2032.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2033/*"
+  to = "https://as-2033.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2034/*"
+  to = "https://as-2034.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2035/*"
+  to = "https://as-2035.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2036/*"
+  to = "https://as-2036.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2037/*"
+  to = "https://as-2037.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2038/*"
+  to = "https://as-2038.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2039/*"
+  to = "https://as-2039.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2040/*"
+  to = "https://as-2040.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2041/*"
+  to = "https://as-2041.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2042/*"
+  to = "https://as-2042.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2043/*"
+  to = "https://as-2043.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2044/*"
+  to = "https://as-2044.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2045/*"
+  to = "https://as-2045.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2046/*"
+  to = "https://as-2046.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2047/*"
+  to = "https://as-2047.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2048/*"
+  to = "https://as-2048.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2049/*"
+  to = "https://as-2049.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2050/*"
+  to = "https://as-2050.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2051/*"
+  to = "https://as-2051.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2052/*"
+  to = "https://as-2052.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2053/*"
+  to = "https://as-2053.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2101/*"
+  to = "https://as-2101.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2102/*"
+  to = "https://as-2102.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2103/*"
+  to = "https://as-2103.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2104/*"
+  to = "https://as-2104.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2105/*"
+  to = "https://as-2105.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2106/*"
+  to = "https://as-2106.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2107/*"
+  to = "https://as-2107.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2108/*"
+  to = "https://as-2108.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2109/*"
+  to = "https://as-2109.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2110/*"
+  to = "https://as-2110.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2111/*"
+  to = "https://as-2111.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2112/*"
+  to = "https://as-2112.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2113/*"
+  to = "https://as-2113.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2114/*"
+  to = "https://as-2114.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2115/*"
+  to = "https://as-2115.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2116/*"
+  to = "https://as-2116.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2117/*"
+  to = "https://as-2117.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2118/*"
+  to = "https://as-2118.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2119/*"
+  to = "https://as-2119.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2120/*"
+  to = "https://as-2120.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2121/*"
+  to = "https://as-2121.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2122/*"
+  to = "https://as-2122.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2123/*"
+  to = "https://as-2123.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2124/*"
+  to = "https://as-2124.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2125/*"
+  to = "https://as-2125.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2126/*"
+  to = "https://as-2126.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2127/*"
+  to = "https://as-2127.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2128/*"
+  to = "https://as-2128.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2129/*"
+  to = "https://as-2129.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2130/*"
+  to = "https://as-2130.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2131/*"
+  to = "https://as-2131.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2132/*"
+  to = "https://as-2132.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2133/*"
+  to = "https://as-2133.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2134/*"
+  to = "https://as-2134.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2135/*"
+  to = "https://as-2135.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2136/*"
+  to = "https://as-2136.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2137/*"
+  to = "https://as-2137.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2138/*"
+  to = "https://as-2138.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2139/*"
+  to = "https://as-2139.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2140/*"
+  to = "https://as-2140.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2141/*"
+  to = "https://as-2141.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2142/*"
+  to = "https://as-2142.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2143/*"
+  to = "https://as-2143.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2144/*"
+  to = "https://as-2144.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2145/*"
+  to = "https://as-2145.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2146/*"
+  to = "https://as-2146.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2147/*"
+  to = "https://as-2147.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2148/*"
+  to = "https://as-2148.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2149/*"
+  to = "https://as-2149.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2150/*"
+  to = "https://as-2150.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2151/*"
+  to = "https://as-2151.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2152/*"
+  to = "https://as-2152.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2153/*"
+  to = "https://as-2153.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2201/*"
+  to = "https://as-2201.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2202/*"
+  to = "https://as-2202.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2203/*"
+  to = "https://as-2203.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2204/*"
+  to = "https://as-2204.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2205/*"
+  to = "https://as-2205.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2206/*"
+  to = "https://as-2206.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2207/*"
+  to = "https://as-2207.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2208/*"
+  to = "https://as-2208.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2209/*"
+  to = "https://as-2209.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2210/*"
+  to = "https://as-2210.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2211/*"
+  to = "https://as-2211.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2212/*"
+  to = "https://as-2212.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2213/*"
+  to = "https://as-2213.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2214/*"
+  to = "https://as-2214.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2215/*"
+  to = "https://as-2215.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2216/*"
+  to = "https://as-2216.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2217/*"
+  to = "https://as-2217.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2218/*"
+  to = "https://as-2218.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2219/*"
+  to = "https://as-2219.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2220/*"
+  to = "https://as-2220.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2221/*"
+  to = "https://as-2221.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2222/*"
+  to = "https://as-2222.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2223/*"
+  to = "https://as-2223.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2224/*"
+  to = "https://as-2224.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2225/*"
+  to = "https://as-2225.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2226/*"
+  to = "https://as-2226.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2227/*"
+  to = "https://as-2227.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2228/*"
+  to = "https://as-2228.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2229/*"
+  to = "https://as-2229.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2230/*"
+  to = "https://as-2230.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2231/*"
+  to = "https://as-2231.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2232/*"
+  to = "https://as-2232.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2233/*"
+  to = "https://as-2233.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2234/*"
+  to = "https://as-2234.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2235/*"
+  to = "https://as-2235.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2236/*"
+  to = "https://as-2236.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2237/*"
+  to = "https://as-2237.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2238/*"
+  to = "https://as-2238.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2239/*"
+  to = "https://as-2239.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2240/*"
+  to = "https://as-2240.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2241/*"
+  to = "https://as-2241.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2242/*"
+  to = "https://as-2242.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2243/*"
+  to = "https://as-2243.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2244/*"
+  to = "https://as-2244.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2245/*"
+  to = "https://as-2245.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2246/*"
+  to = "https://as-2246.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2247/*"
+  to = "https://as-2247.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2248/*"
+  to = "https://as-2248.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2249/*"
+  to = "https://as-2249.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2250/*"
+  to = "https://as-2250.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2251/*"
+  to = "https://as-2251.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2252/*"
+  to = "https://as-2252.netlify.app/avis/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/avis-2253/*"
+  to = "https://as-2253.netlify.app/avis/:splat"
+  status = 200
+
